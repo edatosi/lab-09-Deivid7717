@@ -374,6 +374,7 @@ class ListaEnlazadaTest {
             assertEquals(30, lista.eliminar(1));
             assertEquals(40, lista.eliminar(1));
             assertLista(lista, 20);
+            
             assertEquals(1, lista.tamanio());
         }
 
